@@ -1,0 +1,35 @@
+body{
+	background-image: url(../img/fotos/Aruba_Playa.jpg);
+	background-attachment: fixed;
+	background-repeat: round;
+}
+#Menu{
+	background: rgba(0,0,0,0);
+}
+#Articulo_Img{
+	padding-top: 20px;
+}
+#Contenido_Principal small{
+	font-size: 0.4em;
+}
+#Comentario{
+	padding-top: 20px;
+	padding-right: 0;
+}
+#Comentario form{
+	box-shadow: 1px 1px 10px 1px black;
+	font-size: 1.5em;
+	text-shadow: 1px 1px 1px black;
+}
+#firstname, #email{
+	padding-top: 10px;
+}
+#Comentario ::placeholder{
+		color: #959595;
+		font-size: 1.5em;
+	}
+@media (max-width:600px){
+	#Perfil_Autor{
+		padding-top: 15px;
+	}
+}
